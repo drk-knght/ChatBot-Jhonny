@@ -2,7 +2,7 @@ import os
 import requests
 import json
 import sys
-API_KEY="16f2f559e2b5457472a4557190194f0c"
+API_KEY="16f2f559e2b5457472a45571901"
 url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid=16f2f559e2b5457472a4557190194f0c&units=metric'
 def weather(address,query):
     resp=requests.get(url=url.format(address))
